@@ -161,6 +161,8 @@ My key takeaways, aside from the knowledge to create Rest APIs via CloudFormatio
  - I learned how to debug CloudFormation code, especially using CloudTrail, and how to read the documentation for CloudFormation resources
  - I learned that, to the contrary of what I had initially believed, doing this project manually (all 14 endpoints) probably took less time than if I had tried to do it automatically. Once I got a working proof of concept, it could be quite simple to add an arbitrary number of endpoints, and creation and deletion, or editing, would be much easier, but it is actually quite complicated to get CloudFormation to work, and for the school project, without needing my code to be highly resilient to unforeseen circumstances, and without it needing to be modular, it makes sense why we didn't learn CloudFormation for the assignment.
 
+P.S. I also learned how to delete a commit from GitHub (assuming no one's updated to your changes yet) after I accidentally pushed my Amazon ID. Now, it's not longer in my history.
+
  The Finished Proof of Concept Code for 'createRESTAPI.json' :
  ```
 {
