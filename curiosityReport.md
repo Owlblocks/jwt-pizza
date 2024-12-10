@@ -242,7 +242,7 @@ My key takeaways, aside from the knowledge to create Rest APIs via CloudFormatio
         "Integration": {
           "Type": "AWS",
           "IntegrationHttpMethod": "POST",
-          "Uri": "arn:aws:apigateway:us-east-1:lambda:path/2015-03-31/functions/arn:aws:lambda:us-east-1:750056739266:function:logout/invocations"
+          "Uri": "arn:aws:apigateway:us-east-1:lambda:path/2015-03-31/functions/arn:aws:lambda:us-east-1:[REDACTED]:function:logout/invocations"
         }
       }
     }
